@@ -1,15 +1,17 @@
-body{
-    background-image: url("wallpaper3.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
-}
 h1{
-    margin:250px 100px 100px 200px;
-    color:rgb(183, 204, 204);
+  color:rgb(183, 204, 204);
     font-family: 'Roboto', sans-serif;
     font-size:100px;
+    text-shadow: 10 px blue;
+    margin:150px 300px 200px 300px;
     font-family:'Times New Roman', Times, serif;
 }
+body{
+    background-image:url("/img/wallpaper 2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button {
   display: inline-block;
   padding: 15px 25px;
