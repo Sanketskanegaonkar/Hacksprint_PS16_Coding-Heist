@@ -1,0 +1,18 @@
+body{
+    background-color:#00008b;
+}
+h1{
+    color:aqua;
+    font-family: 'Roboto', sans-serif;
+    font-size:70px;
+}
+.button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display:inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius:12px;
+ }
