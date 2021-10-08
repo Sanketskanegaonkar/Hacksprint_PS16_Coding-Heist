@@ -1,0 +1,31 @@
+h1{
+    margin:200px 100px 50px 100px;
+    font-family: 'Merriweather', serif;
+    color:white;
+}
+body{
+    background-image:url("wallpaper3.jpeg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.button{
+    background-color:lightblue;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+  }
+  .button {border-radius: 12px;}
+  input{
+      height:30px;
+      width:170px;
+  }
+span{
+    color:
+    font-size:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
