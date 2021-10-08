@@ -1,0 +1,35 @@
+
+select
+{
+    
+    width:  6%;
+    height: 42px;
+    font-size:30px;
+
+}
+div{
+    background-color:black;
+}
+
+
+
+
+body
+{
+  height: 100%;
+  margin: 0;
+
+
+  color: #fdfdfd;
+  /* The image used */
+  background-image: url("img/wallpaper4.jpeg");
+
+  /* Full height */
+  
+  height: 760px;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
