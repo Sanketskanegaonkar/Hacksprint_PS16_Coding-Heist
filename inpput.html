@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<select time="Set the timer" id="vel">
+  <option value="1 hr">1 hr</option>
+  <option value="2 hr">2 hrs</option>
+  <option value="3 hr">3 hrs</option>
+  <option value="Postpaid">Postpaid</option>
+</select> 
+ 
+
+<form action="action.php" method="post">
+ <p>Your name: <input type="text" name="name" /></p>
+ <p>Your age: <input type="text" name="age" /></p>
+ <p><input type="submit" /></p>
+</form> 
+<p>Click "Try it" to display the value of the form's action attribute:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("frm1").action;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
