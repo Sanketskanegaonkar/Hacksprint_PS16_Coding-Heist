@@ -1,0 +1,16 @@
+
+body {
+    font-family:'Roboto',sans-serif;
+    margin:0;
+}
+param{
+    background-color: white;
+    display: inline-flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    height: 200px;
+    width: 100px;
+
+}
