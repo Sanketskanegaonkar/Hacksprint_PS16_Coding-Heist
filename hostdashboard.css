@@ -1,0 +1,66 @@
+h1{
+    font-size:90px;
+    color:aquamarine;
+    margin:20px;
+}
+body {
+    background-image:url('img/wallpaper 2.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    font-size:30px;
+}
+
+input[type=text] {
+    width:15%;
+    height:auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    text-align:left;
+    font-size:30px;
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rebeccapurple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color:pink;}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }

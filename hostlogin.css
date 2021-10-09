@@ -1,0 +1,54 @@
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align:left;
+    font-size:80px;
+    color:white;
+    margin:100px 80px 80px 100px;
+
+}
+input[type=text] {
+    width:20%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    text-align:left;
+    margin:25px;
+
+    font-size:30px;
+  }
+body
+{
+    background-image:url('img/wallpaper 1.jpeg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:left;
+    color:white;
+    font-size:50px;
+
+}
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    background-color:lightgreen;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 0px 150px 80px 100px;
+  
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
