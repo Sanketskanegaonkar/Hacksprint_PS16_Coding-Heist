@@ -12,15 +12,6 @@ input[type=text] {
     padding: 12px 20px;
     box-sizing: border-box;
     text-align:left;
-    margin:25px 5;
-
-    font-size:30px;
-  }
-input[type=password] {
-    width:20%;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    text-align:left;
     margin:25px;
 
     font-size:30px;
