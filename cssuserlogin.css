@@ -1,13 +1,7 @@
-h1
-{
-  
-  margin: 100px;
-  font-family: 'Calibri(body)', serif;
-  color:white;
-}
+
 body
-{
-  
+{ 
+  text-align:center;
   color: white;
   background-image:url('img/wallpaper3.jpeg');
   background-repeat:no-repeat;
@@ -21,13 +15,14 @@ body
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 200px;
+    margin:40px;
+    width:50px;
   }  
 input
   {
     font-size: 25px;
-    height:40px;
-    width:200px;
+    height:35px;
+    width:100px;
   }
    
 span

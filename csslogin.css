@@ -1,19 +1,24 @@
 body{
-    background-image: url("img/spi.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
+  
+  background-image: url("img/spi.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
-h1{
-    margin:250px 100px 100px 200px;
-    color:rgb(183, 204, 204);
-    font-family: 'Roboto', sans-serif;
-    font-size:100px;
-    font-family:'Times New Roman', Times, serif;
+h1
+{
+    
+  color:lightblue;
+  font-family: 'Roboto', sans-serif;  
+    
+  font-size:80px;
+  text-shadow: 10 px blue;
+  margin:150px 300px 200px 350px;
+  font-family:'Times New Roman', Times, serif;
 }
 .button {
   display: inline-block;
   padding: 15px 25px;
-  font-size: 35px;
+  font-size: 25px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -23,7 +28,7 @@ h1{
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
-
+  margin: 25px;
 }
 
 .button:hover {background-color: #3e8e41}
@@ -33,3 +38,8 @@ h1{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+div
+    {
+    color:rgb(0, 2, 34);
+    font-family: Verdana, Tahoma, sans-serif;
+    }

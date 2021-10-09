@@ -12,7 +12,7 @@ body {
 }
 
 input[type=text] {
-    width:15%;
+    width:20%;
     height:auto;
     padding: 12px 20px;
     box-sizing: border-box;

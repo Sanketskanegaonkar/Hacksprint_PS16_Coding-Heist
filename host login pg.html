@@ -5,19 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Authentication As Host</title>
+   <pre><h1>Enter Admin 
+Credentials</h1></pre>
 </head>
-<body >
-  
-   <h1>Host Login Page</h1>
-   <div class="a">
-   <pre>     UserId:<input  type="text" placeholder="Enter ID">
-   Password:<input type="text" placeholder="Enter Password"></pre>
-   </div>
+<script>
+   function validate(){
 
-    
- <pre>        <button><a href="Host dashboard.html">LOGIN</a></button></a></pre>
+       var a = document.getElementById("password").value;
+       var b = document.getElementById("host").value;
+       if (a!="admin") {
+          alert("Username or Passwords do no match");
+          return false;
+       }
+       if(b!="admin"){
+         alert("Username or Passwords do no match");
+          return false;
+       }
+   }
+</script>
+<body>
+   <form onSubmit="return validate()" action="Host dashboard.html">
+     
+      <pre>  Hostname: <input type="text" id="host" name="host" placeholder="Enter hostname" /> </pre>
+      <pre>  Password:<input type="password" id="password" name="password" placeholder="Enter password" /><br/></pre>
+      <pre>     <button type="submit" value="submit">Submit</button></pre>
+      </form>
+</body>
 
-</body>
-</body>
 </html> 

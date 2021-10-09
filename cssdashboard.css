@@ -1,7 +1,7 @@
 h1{
   color:rgb(183, 204, 204);
     font-family: 'Roboto', sans-serif;
-    font-size:100px;
+    font-size:80px;
     text-shadow: 10 px blue;
     margin:150px 300px 200px 300px;
     font-family:'Times New Roman', Times, serif;
@@ -15,7 +15,7 @@ body{
 .button {
   display: inline-block;
   padding: 15px 25px;
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -35,3 +35,9 @@ body{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+div
+    {
+    color:white;
+    font-size:70px;
+    font-family: Verdana, Tahoma, sans-serif;
+    }
