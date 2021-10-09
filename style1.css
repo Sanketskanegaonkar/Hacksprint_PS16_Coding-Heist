@@ -1,0 +1,356 @@
+body {
+	background-color: #000000;
+  color: #AAAAAA;
+	font-family: avenir, sans-serif;
+  margin: 0;
+  padding: 0;
+	font-size: 62.5%;
+}
+
+h1 {
+  margin: 1.5em auto 1.5em auto;
+  width: 20em;
+  text-align: center;
+  font-size: 4em;
+}
+
+.numero_counting_wrapper {
+	background-color: #000000;
+	margin: 0 auto 0 auto;
+	width: 300px;
+	height: 300px;
+}
+
+.numero_shape {
+	position: relative;
+	background-color: #FF6622;
+	margin: 0 auto 0 auto;
+	width: 40%;
+	height: 60%;
+	border-radius: 30px 30px 30px 30px;
+}
+
+.numero_shape:before {
+	content: " ";
+	position: absolute;
+	top: 16.6666667%;
+	left: 25%;
+	background-color: #000000;
+	width: 50%;
+	height: 33.3333334%;
+	
+	-webkit-animation-name: contagem1;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation-name: contagem1;
+	-moz-animation-duration: 10s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-delay: 0;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	
+	-o-animation-name: contagem1;
+	-o-animation-duration: 10s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-delay: 0;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	-o-animation-fill-mode: forwards;
+	
+	animation-name: contagem1;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes contagem1 {
+	0% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	18% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	20% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	38% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	40% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	48% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	50% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	58% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	60% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	68% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	70% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	88% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	90% {top: 0%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 0%; left: 0%; width: 75%; height: 50%;}
+}
+
+@-moz-keyframes contagem1 {
+	0% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	18% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	20% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	38% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	40% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	48% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	50% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	58% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	60% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	68% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	70% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	88% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	90% {top: 0%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 0%; left: 0%; width: 75%; height: 50%;}
+}
+
+@-o-keyframes contagem1 {
+	0% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	18% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	20% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	38% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	40% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	48% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	50% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	58% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	60% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	68% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	70% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	88% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	90% {top: 0%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 0%; left: 0%; width: 75%; height: 50%;}
+}
+
+@keyframes contagem1 {
+	0% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 16.6666667%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	18% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	20% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 16.6666667%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	38% {top: 16.6666667%; left: 0%; width: 75%; height: 33.3333334%;}
+	40% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	48% {top: 0%; left: 25%; width: 75%; height: 41.6666667%;}
+	50% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	58% {top: 16.6666667%; left: 25%; width: 75%; height: 25%;}
+	60% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	68% {top: 0%; left: 25%; width: 50%; height: 41.6666667%;}
+	70% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	88% {top: 16.6666667%; left: 0%; width: 75%; height: 25%;}
+	90% {top: 0%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 0%; left: 0%; width: 75%; height: 50%;}
+}
+
+.numero_shape:after{
+	content: " ";
+	position: absolute;
+	top: 58.3333333%;
+	left: 25%;
+	background-color: #000000;
+	width: 50%;
+	height: 33.3333334%;
+	
+	-webkit-animation-name: contagem2;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	-webkit-animation-play-state: running;
+	-webkit-animation-fill-mode: forwards;
+	
+	-moz-animation-name: contagem2;
+	-moz-animation-duration: 10s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-delay: 0;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: normal;
+	-moz-animation-play-state: running;
+	-moz-animation-fill-mode: forwards;
+	
+	-o-animation-name: contagem2;
+	-o-animation-duration: 10s;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-delay: 0;
+	-o-animation-iteration-count: infinite;
+	-o-animation-direction: normal;
+	-o-animation-play-state: running;
+	-o-animation-fill-mode: forwards;
+	
+	animation-name: contagem2;
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes contagem2 {
+	0% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	18% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	20% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	38% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	40% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	48% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	50% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	58% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	60% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	68% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	70% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	88% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	90% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 50%; left: 0%; width: 75%; height: 50%;}
+}
+
+@-moz-keyframes contagem2 {
+	0% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	18% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	20% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	38% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	40% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	48% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	50% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	58% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	60% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	68% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	70% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	88% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	90% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 50%; left: 0%; width: 75%; height: 50%;}
+}
+
+@-o-keyframes contagem2 {
+	0% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	18% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	20% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	38% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	40% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	48% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	50% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	58% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	60% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	68% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	70% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	88% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	90% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 50%; left: 0%; width: 75%; height: 50%;}
+}
+
+@keyframes contagem2 {
+	0% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	8% {top: 50%; left: 25%; width: 50%; height: 33.3333334%;}
+	10% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	18% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	20% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	28% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	30% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	38% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	40% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	48% {top: 58.3333333%; left: 25%; width: 50%; height: 25%;}
+	50% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	58% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	60% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	68% {top: 58.3333333%; left: 0%; width: 75%; height: 41.6666667%;}
+	70% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	78% {top: 58.3333333%; left: 0%; width: 75%; height: 25%;}
+	80% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	88% {top: 58.3333333%; left: 25%; width: 75%; height: 25%;}
+	90% {top: 50%; left: 0%; width: 75%; height: 50%;}
+	100% {top: 50%; left: 0%; width: 75%; height: 50%;
+}
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  background-color:red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size:25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  background-color:lightblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  
