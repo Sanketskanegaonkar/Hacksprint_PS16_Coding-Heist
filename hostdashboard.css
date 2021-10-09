@@ -12,14 +12,14 @@ body {
 }
 
 input[type=text] {
-    width:15%;
+    width:20%;
     height:auto;
     padding: 12px 20px;
     box-sizing: border-box;
     text-align:left;
     font-size:30px;
   }
-  button {
+button {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -34,15 +34,15 @@ input[type=text] {
     box-shadow: 0 9px #999;
   }
   
-  button:hover {background-color: #3e8e41}
+button:hover {background-color: #3e8e41}
   
-  button:active {
+button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
   
-  .button {
+.button {
     display: inline-block;
     padding: 15px 25px;
     font-size: 24px;
@@ -55,12 +55,12 @@ input[type=text] {
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-  }
+}
   
-  .button:hover {background-color:pink;}
+.button:hover {background-color:pink;}
   
-  .button:active {
+.button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+}

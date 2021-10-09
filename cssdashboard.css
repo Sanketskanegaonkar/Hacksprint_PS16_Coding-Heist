@@ -7,7 +7,7 @@ h1{
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background-image:url("/img/spi.jpeg");
+    background-image:url("img/spi.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }

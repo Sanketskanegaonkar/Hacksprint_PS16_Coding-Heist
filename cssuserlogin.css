@@ -1,31 +1,38 @@
-h1{
-    margin:200px 100px 50px 100px;
-    font-family: 'Merriweather', serif;
-    color:white;
+h1
+{
+  
+  margin: 100px;
+  font-family: 'Calibri(body)', serif;
+  color:white;
 }
-body{
-    background-image:url("wallpaper3.jpeg");
-    background-repeat:no-repeat;
-    background-size:cover;
+body
+{
+  
+  color: white;
+  background-image:url('img/wallpaper3.jpeg');
+  background-repeat:no-repeat;
+  background-size:cover;
 }
-.button{
-    background-color:lightblue;
-    color: black;
-    padding: 20px;
+  
+.button 
+  {
+    border-radius: 4px;
+    background-color: #f4511e;
     text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 16px;
-    margin:4px 2px;
-    cursor:pointer;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+  }  
+input
+  {
+    font-size: 25px;
+    height:40px;
+    width:200px;
   }
-  .button {border-radius: 12px;}
-  input{
-      height:30px;
-      width:170px;
-  }
-span{
-    color:
+   
+span
+    {
+    color:white;
     font-size:30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: Verdana, Tahoma, sans-serif;
+    }

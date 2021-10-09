@@ -1,16 +1,22 @@
-
-body {
-    font-family:'Roboto',sans-serif;
-    margin:0;
+button {
+  background: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  font-family: 'Muli';
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+  line-height: 1;
+  display: flex;
 }
-param{
-    background-color: white;
-    display: inline-flex;
-    font-size: 50px;
-    align-items: center;
-    justify-content: center;
-    margin: 0%;
-    height: 200px;
-    width: 100px;
 
+button:hover {
+  background: #eee;
 }
+
+
+
