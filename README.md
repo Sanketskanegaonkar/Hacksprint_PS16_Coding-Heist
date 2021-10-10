@@ -10,36 +10,36 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 
 #Video of Dashboard
 <video src="https://user-images.githubusercontent.com/92090642/136683868-5cc66782-c4cb-40d6-9bce-6de1836a5608.mp4">
-
+<br>
 #Image of Home Page
 <img src="img/login.PNG">
-
+<br>
 #Image of Login Page
 <img src="img/index.PNG">
-
+<br>
 #Image of User Page
 <img src="img/user login.PNG">
- 
+<br>
 #Image of Host Page
 <img src="img/host login.PNG">
-
+<br>
 #Image of User-Dashboard Page
 <img src="img/user dash.PNG">
-
+<br>
 #Image of Host-Dashboard Page
 <img src="img/host dash.PNG">
-
+<br>
 #Image of Timer Page
 <img src="img/Timer alert.PNG">
-
+<br>
 #Image of Game Page
 <img src="img/game.PNG">
-
+<br>
 #Image of Active PC  Page
 <img src="img/pc1,pc2.PNG"> 
-
+<br>
 #Image of PC1 Page
 <img src="img/pc1.PNG">
-
+<br>
 #Image of PC2 Page
 <img src="img/pc2.PNG">
