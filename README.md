@@ -15,7 +15,7 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 <img src="img/login.PNG">
 
 #Image of Login Page
-<img src="img/index.PNG">
+<br img src="img/index.PNG">
 
 #Image of User Page
 <img src="img/user login.PNG">
