@@ -12,10 +12,10 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 <video src="https://user-images.githubusercontent.com/92090642/136683868-5cc66782-c4cb-40d6-9bce-6de1836a5608.mp4">
 
 #Image of Home Page
-<img src="/img/login.png">
+<img src="img/login.PNG">
 
 #Image of Login Page
-<img src="/img/index.png">
+<img src="img/index.PNG">
 
 #Image of Game Page
 <img src="/img/">
