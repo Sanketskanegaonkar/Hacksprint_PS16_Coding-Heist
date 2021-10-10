@@ -30,7 +30,7 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 <img src="img/host dash.PNG">
 
 #Image of Timer Page
-<img src="img/Timer alert.PNG">
+<img src="img/timer alert.PNG">
 
 #Image of Game Page
 <img src="img/game.PNG">
