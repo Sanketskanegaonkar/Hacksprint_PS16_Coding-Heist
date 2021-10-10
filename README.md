@@ -9,7 +9,7 @@ When the time is about to end i.e., when the time remaining is 5 mins, a small p
 When the time runs out, Bill will be displayed to the user and option to extend time will be provided.
 
 #Video of Dashboard
-<video src="">
+<iframe src="https://drive.google.com/file/d/1lkCkWApSrOwZ1yTWWTX8OgeLeLdwnd2H/preview" width="640" height="480" allow="autoplay"></iframe>
 
 #Image of Login Page
 <img src="">
