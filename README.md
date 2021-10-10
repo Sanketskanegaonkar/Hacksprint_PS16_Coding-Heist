@@ -19,9 +19,3 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 
 #Image of Game Page
 <img src="">
-
-
-
-"https://drive.google.com/file/d/1lkCkWApSrOwZ1yTWWTX8OgeLeLdwnd2H/preview"
- 
-
