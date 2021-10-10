@@ -8,15 +8,5 @@ Now when the First phase is fully Functional and operative, we would like to ini
 When the time is about to end i.e., when the time remaining is 5 mins, a small popup will be shown that” u are about to exhaust the time provided” and a small timer counting in reverse will be provided.
 When the time runs out, Bill will be displayed to the user and option to extend time will be provided.
 
-#Video of Dashboard
-<iframe src="https://drive.google.com/file/d/1lkCkWApSrOwZ1yTWWTX8OgeLeLdwnd2H/preview" width="640" height="480" allow="autoplay"></iframe>
-
-#Image of Login Page
-<img src="">
-
-#Image of Timer Page
-<img src="">
-
-#Image of Game Page
-<img src="">
+"https://drive.google.com/file/d/1lkCkWApSrOwZ1yTWWTX8OgeLeLdwnd2H/preview"
 
