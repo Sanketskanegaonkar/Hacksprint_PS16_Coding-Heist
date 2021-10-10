@@ -17,27 +17,29 @@ When the time runs out, Bill will be displayed to the user and option to extend 
 #Image of Login Page
 <img src="img/index.PNG">
 
-#Image of Game Page
-<img src="/img/">
+#Image of User Page
+<img src="img/user login.PNG">
  
-#Image of Time Page
-<img src="/img/">
+#Image of Host Page
+<img src="img/host login.PNG">
+
+#Image of User-Dashboard Page
+<img src="img/user dash.PNG">
+
+#Image of Host-Dashboard Page
+<img src="img/host dash.PNG">
+
+#Image of Timer Page
+<img src="img/Timer alert.PNG">
 
 #Image of Game Page
-<img src="/img/">
+<img src="img/game.PNG">
 
-#Image of Game Page
-<img src="/img/">
+#Image of Active PC  Page
+<img src="img/pc1,pc2.PNG"> 
 
-#Image of Game Page
-<img src="/img/">
+#Image of PC1 Page
+<img src="img/pc1.PNG">
 
-#Image of Game Page
-<img src="/img/">
-
-#Image of Game Page
-<img src="/img/">
-
-#Image of Game Page
-<img src="/img/">
-
+#Image of PC2 Page
+<img src="img/pc2.PNG">
